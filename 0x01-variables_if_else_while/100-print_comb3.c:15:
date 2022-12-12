@@ -1,0 +1,5 @@
+ons                                                              
+
+100-print_comb3.c:16: ERROR: trailing whitespace                  
+
+100-print_comb3.c:17: ERROR: that open brace { should be on the ne
