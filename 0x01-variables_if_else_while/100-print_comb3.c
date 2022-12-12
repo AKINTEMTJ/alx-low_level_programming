@@ -18,16 +18,18 @@ int main(void)
 
 	for (units == '0'; units <= '9'; units++)/* print unit*/
 	{
-			if (tens <= units)/*no repitition*/
+			if (!((units == tens) || (tens > units)))/*no repitition*/
 			{
+
 				putchar(tens);
 				putchar(units);
-			}
 	if (!(units == '9' && tens == '8'))/* space and comma*/
 	{
 		putchar(',');
 		putchar(' ');
 	}
+			}
+
 
 	}
 	}
