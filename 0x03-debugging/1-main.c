@@ -16,7 +16,7 @@ int main(void)
 	/**
 	 * while (i < 10)
 	 * {
-	 *     putchar(i);
+	 * putchar(i);
 	 * }
 	 */
 
@@ -24,5 +24,3 @@ int main(void)
 
 	return (0);
 }
-
-
